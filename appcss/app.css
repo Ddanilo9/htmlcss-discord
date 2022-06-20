@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+ul,
+li,
+menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background-color: yellow;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
