@@ -24,3 +24,22 @@ ul{
     display: flex;
     gap: 20px;
 }
+
+.first-sec{
+background-color: blue;
+height: 35vh;
+}
+
+.main-p{
+max-width: 900px;
+margin: 0 auto;
+height: 100%;
+padding: 15px 160px;
+}
+
+.paragraph{
+    height: 100%;
+    background-color: plum;
+}
+
+
