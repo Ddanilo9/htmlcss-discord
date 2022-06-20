@@ -1,3 +1,6 @@
+/* Reset rules */
+
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -10,6 +13,9 @@ menu{
     list-style: none;
     text-decoration: none;
 }
+
+/* menu-nav */
+
 
 .main-nav{
     display: flex;
@@ -24,6 +30,9 @@ ul{
     display: flex;
     gap: 20px;
 }
+
+/* sections-main */
+
 
 .first-sec{
 background-color: blue;
@@ -73,6 +82,9 @@ padding: 15px 160px;
     flex-direction: row-reverse;
 }
 
+/* Last-section */
+
+
 .last-section{
     height: 75vh;
     background-color: rgb(157, 152, 152);
@@ -85,4 +97,42 @@ padding: 15px 160px;
     max-width: 900px;
     margin: 0 auto;
    
+}
+
+/* Footer */
+
+
+footer{
+    background-color: rgb(65, 62, 62);
+    height: 60vh;
+}
+
+.container-column{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    height: 50vh;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.col{
+    background-color: aqua;
+    flex-basis: 16%;
+}
+
+.col-big{
+    flex-grow: 1;
+    background-color: palevioletred;
+}
+
+.container-login{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    align-items: center;
+    padding: 10px 0;
 }
