@@ -30,7 +30,7 @@ background-color: blue;
 height: 35vh;
 }
 
-.main-p{
+.container-p{
 max-width: 900px;
 margin: 0 auto;
 height: 100%;
@@ -42,4 +42,47 @@ padding: 15px 160px;
     background-color: plum;
 }
 
+.section-size{
+    height: 40vh;
+    background-color: rgb(229, 245, 245);
+}
 
+.container{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 15px 0px;
+}
+
+.container-sx{
+    background-color: rgb(32, 79, 222);
+    flex-basis: 60%;
+}
+
+.container-dx{
+    background-color: palevioletred;
+    flex-basis: 40%;
+}
+
+#bgc-gray{
+    background-color: rgb(157, 152, 152);
+}
+
+#reverse{
+    flex-direction: row-reverse;
+}
+
+.last-section{
+    height: 75vh;
+    background-color: rgb(157, 152, 152);
+    padding: 15px 0px;
+}
+
+.second-paragraph{
+    background-color: green;
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
