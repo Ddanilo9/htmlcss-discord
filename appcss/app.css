@@ -4,7 +4,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    border: 0px;
+    padding: 0px;
 }
 
 ul,
@@ -203,18 +203,16 @@ footer{
 .container-footer{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 120px 0px;
+    padding: 80px 0px 40px 0px;
     display: flex;
 }
 
 .col-4{
     flex-basis: calc(100%/3);
-    border: 1px solid gray;
 }
 
 .col-2{
     flex-basis: calc(100%/6);
-    border: 1px solid gray;
 }
 
 .main-footer{
@@ -233,10 +231,6 @@ h6{
     padding-top: 8px;
 }
 
-.ul-footer{
-    margin-left: -40px;
-}
-
 .ul-footer li{
     font-size: 16px;
     line-height: 22px;
@@ -245,4 +239,33 @@ h6{
 
 span{
     margin-top: 24px;
+    display: inline-block;
 }
+
+.ita-img{
+    width: 24px;
+    height: 16px;
+}
+
+span::after{
+    content: "\01F897";
+    padding-left: 5px; 
+}
+ul.social{
+    margin-top: 24px;
+    gap: 30px;
+    font-size: 24px;
+}
+
+.colophone{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
