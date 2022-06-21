@@ -32,7 +32,7 @@ header{
     margin: 0 auto;
 }
 
-ul{
+.ul-logo{
     display: flex;
     gap: 20px;
     color: white;
@@ -197,19 +197,15 @@ h1{
 
 footer{
     background-color: #23272A;
+    color: white;
 }
 
 .container-footer{
     max-width: 1200px;
     margin: 0 auto;
-    height: 680px;
     padding: 120px 0px;
-    text-align: center;
-    align-items: center;
-    border: 2px solid red;
     display: flex;
 }
-
 
 .col-4{
     flex-basis: calc(100%/3);
@@ -221,52 +217,32 @@ footer{
     border: 1px solid gray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer{
-    background-color: rgb(65, 62, 62);
-    height: 60vh;
+.main-footer{
+    font-size: 32px;
+    color: #5865F2;
+    margin-bottom: 20px;
 }
 
-.container-column{
-    max-width: 900px;
-    margin: 0 auto;
+.social{
     display: flex;
-    height: 50vh;
-    padding-top: 5px;
-    padding-bottom: 10px;
 }
 
-.col{
-    background-color: aqua;
-    flex-basis: 16%;
+h6{
+    font-size: 16px;
+    color: #5865F2;
+    padding-top: 8px;
 }
 
-.col-big{
-    flex-grow: 1;
-    background-color: palevioletred;
+.ul-footer{
+    margin-left: -40px;
 }
 
-.container-login{
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    height: 8vh;
-    justify-content: space-between;
-    background-color: lightseagreen;
-    align-items: center;
-    padding: 10px 0;
-} */ 
+.ul-footer li{
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 8px;
+}
+
+span{
+    margin-top: 24px;
+}
