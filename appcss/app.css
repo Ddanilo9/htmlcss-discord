@@ -61,7 +61,6 @@ a:link{
     text-align: center;
     display: flex;
     align-items: center;
-    border: 2px red solid;
 }
 
 .hero-content{
@@ -106,7 +105,6 @@ h1{
     padding: 120px 0px;
     text-align: center;
     align-items: center;
-    border: 2px solid green;
  }
 
  .row{
@@ -120,12 +118,10 @@ h1{
 
  .col-w60{
     flex-basis: 60%;
-    border: 2px solid green;
  }
 
  .col-w40{
     flex-basis: 40%;
-    border: 2px solid green;
     text-align: left;
     padding: 5px 20px;
  }
@@ -141,35 +137,103 @@ h1{
     line-height: 1.4;
  }
 
-/* 
 
-
-#bgc-gray{
-    background-color: rgb(157, 152, 152);
-}
-
-#reverse{
-    flex-direction: row-reverse;
-} */
-
-/* Last-section */
-
-
-/* .last-section{
-    height: 75vh;
-    background-color: rgb(157, 152, 152);
-    padding: 15px 0px;
-}
-
-.second-paragraph{
-    background-color: green;
-    height: 100%;
-    max-width: 900px;
+ .container-video{
+    display: flex;
+    max-width: 1200px;
     margin: 0 auto;
-   
+    padding: 120px 0px;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ .title-2sect{
+    font-size: 40px;
+    color: #23272a;
+ }
+
+ .paragraph-3{
+    font-size: 16px;
+    margin: 24px 0px 0px;
+ }
+
+ .col-w100{
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .cont-h2-p{
+    max-width: 1000px;
+    margin-left: 100px;
+ }
+
+ .container-img-h4{
+    background-image: url(../img/stars.svg);
+    height: 45px;
+    width: 555px;
+    background-size: contain;
+    align-self: center;
+    margin: 0 auto;
+ }
+
+ h4{
+    font-size: 32px;
+    margin-top: -23px;
+ }
+
+ .btc-blue{
+    margin: 40px 0px 0px;
+    padding: 16px 32px;
+    background-color: #5865F2;
+    font-size: 20px;
+    color: white;
+    border-radius: 28px;
+ }
+
+
+
+/* footer */
+
+footer{
+    background-color: #23272A;
 }
 
-/* Footer */
+.container-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 680px;
+    padding: 120px 0px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    display: flex;
+}
+
+
+.col-4{
+    flex-basis: calc(100%/3);
+    border: 1px solid gray;
+}
+
+.col-2{
+    flex-basis: calc(100%/6);
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer{
