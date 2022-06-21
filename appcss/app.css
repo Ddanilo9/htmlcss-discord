@@ -9,7 +9,8 @@
 
 ul,
 li,
-menu{
+menu,
+a{
     list-style: none;
     text-decoration: none;
 }
@@ -39,6 +40,10 @@ ul{
     line-height: 34px;
 }
 
+a:link{
+    color: white;
+}
+
 .btn-acces{
     border-radius: 20px;
     background-color: white;
@@ -56,6 +61,7 @@ ul{
     text-align: center;
     display: flex;
     align-items: center;
+    border: 2px red solid;
 }
 
 .hero-content{
@@ -63,10 +69,10 @@ ul{
     margin: 0 auto;
 }
 
-.section-bg{
-    background-image: url(/img/jumbo.png);
+.section-bgi{
+    background-image: url(../img/jumbo.png);
     min-height: 560px;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -93,46 +99,50 @@ h1{
     color: white;
     margin-left: 24px;
 }
-/* 
-.first-sec{
-background-color: blue;
-height: 35vh;
-}
-
-.hero-content{
-max-width: 1200px;
-margin: 0 auto;
-height: 100%;
-padding: 15px 160px;
-}
-
-.paragraph{
-    height: 100%;
-    background-color: plum;
-}
-
-.section-size{
-    height: 40vh;
-    background-color: rgb(229, 245, 245);
-} */
-
-/* .container{
-    display: flex;
-    max-width: 900px;
+ .container-section-col{
+    max-width: 1200px;
     margin: 0 auto;
-    height: 100%;
-    padding: 15px 0px;
-}
+    height: 680px;
+    padding: 120px 0px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid green;
+ }
 
-.container-sx{
-    background-color: rgb(32, 79, 222);
+ .row{
+    display: flex;
+    align-items: center;
+ }
+
+ .row-reverse{
+    flex-direction: row-reverse;
+ }
+
+ .col-w60{
     flex-basis: 60%;
-}
+    border: 2px solid green;
+ }
 
-.container-dx{
-    background-color: palevioletred;
+ .col-w40{
     flex-basis: 40%;
-}
+    border: 2px solid green;
+    text-align: left;
+    padding: 5px 20px;
+ }
+
+ .title-1sect{
+    font-size: 46px;
+    color: #23272a;
+ }
+
+ .paragraph-2{
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 1.4;
+ }
+
+/* 
+
 
 #bgc-gray{
     background-color: rgb(157, 152, 152);
