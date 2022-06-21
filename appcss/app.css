@@ -14,33 +14,48 @@ menu{
     text-decoration: none;
 }
 
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 /* menu-nav */
 
-
+header{
+    background-color: rgba(37,94,233,255);
+}
 .main-nav{
     display: flex;
     justify-content: space-between;
     padding: 15px 80px;
-    background-color: yellow;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 ul{
     display: flex;
     gap: 20px;
+    color: white;
+    text-align: center;
+    line-height: 34px;
+}
+
+.btn-acces{
+    border-radius: 20px;
+    background-color: white;
+    color: rgba(112,121,130,255);
+    padding: 9px;
 }
 
 /* sections-main */
 
-
+/* 
 .first-sec{
 background-color: blue;
 height: 35vh;
 }
 
-.container-p{
-max-width: 900px;
+.hero-content{
+max-width: 1200px;
 margin: 0 auto;
 height: 100%;
 padding: 15px 160px;
@@ -54,9 +69,9 @@ padding: 15px 160px;
 .section-size{
     height: 40vh;
     background-color: rgb(229, 245, 245);
-}
+} */
 
-.container{
+/* .container{
     display: flex;
     max-width: 900px;
     margin: 0 auto;
@@ -80,12 +95,12 @@ padding: 15px 160px;
 
 #reverse{
     flex-direction: row-reverse;
-}
+} */
 
 /* Last-section */
 
 
-.last-section{
+/* .last-section{
     height: 75vh;
     background-color: rgb(157, 152, 152);
     padding: 15px 0px;
@@ -102,7 +117,7 @@ padding: 15px 160px;
 /* Footer */
 
 
-footer{
+/* footer{
     background-color: rgb(65, 62, 62);
     height: 60vh;
 }
@@ -135,4 +150,4 @@ footer{
     background-color: lightseagreen;
     align-items: center;
     padding: 10px 0;
-}
+} */ 
