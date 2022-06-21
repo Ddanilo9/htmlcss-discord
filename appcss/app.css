@@ -48,6 +48,51 @@ ul{
 
 /* sections-main */
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 560px;
+    padding: 15px 160px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-bg{
+    background-image: url(/img/jumbo.png);
+    min-height: 560px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 56px;
+    color: white;
+}
+
+.main-paragraph{
+    color: white;
+    font-size: 20px;
+    margin: 40px 0px 0px;
+}
+
+.btn-hero{
+    font-size: 20px;
+    border-radius: 28px;
+    padding: 16px 32px;
+    margin-top: 24px;
+}
+
+.btn-black{
+    background-color: rgba(35,39,42,255);
+    color: white;
+    margin-left: 24px;
+}
 /* 
 .first-sec{
 background-color: blue;
